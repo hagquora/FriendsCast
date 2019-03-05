@@ -3,4 +3,5 @@ node_js:
   - "node"
 script:
   - npm install -g firebase-tools
+  - firebase use fra
   - firebase deploy --token "1/sOTFWDEnZtlh3r32TxWEAAVNQQcUy16pR-U22r8WYZo"
