@@ -98,7 +98,7 @@ const app = dialogflow({ debug: true });
 // Welcome Intent.
 app.intent('Default Welcome Intent', (conv) => {
     conv.ask(`<speak><audio src="${welcomesong}"></audio>`
-        + `Welcome! Who is your favourite character among Joey, Chandler, Monica, Rachel, Ross or Phoebe?</speak>`);
+        + `Welcome! Who is your favourite character among Chandler, Joey, Monica, Rachel, Ross or Phoebe?</speak>`);
 });
 
 // -------------------------------------------Monica Geller ACTIONS-------------------------------------
