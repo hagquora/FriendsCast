@@ -2,10 +2,5 @@ language: node_js
 node_js:
   - "node"
 script:
-  -
-
-deploy:
-  provider: firebase
-  token:
-    secure: "hfEEVv8mkh/QlHXHHI8NpssH11L7NpTkSYja8z6p5qaRzbs6kZ08g0cE16ssgFHtszx6qz2d+JQaDhjZ6Lt0G+Tt1SoCwnvjO+Imv5fTOazQByLIwHDUM0rF2VXLpHVVNOonzBXMg3kcqYXApOnAmNknlR72hKkoXPybTVtSy7+PxhTfymiAjRMv34VoZL9HwcojzhNQWjB8FdQfEqrUv+kImmjxoFwxyBe9+LHenFsFjhePXh336Mn0Bq1eq+xaeQjdWQmjN1q4x01X1Pysn6Gsu2HFG/RJkKuzYed17M3azcFZLcRH8GWOBWLIhHjskgAwAizQE47lQbj0Ts3ZTGP1DRC2zOo91T1LxFHHyhSsDL0s2FvALDC4EMU07V1HXMbsjaaoJMgmS3/wbILGkGOBtF+xm4T47IehoaNR8V2h+M88M97F/A7haEdkaVBUwt2a8kwPoKv3G/Kb6TgcdVGkgG8WgCKRav6IxLe9cgdsW7C0z3zA4LlFhQmVzduocZLPFWyKlX1qniL0/2ZTguwfpF1kIVzadlE3CRaB0mSAnxrtUWebzCWdmPj3mamubc6yi7+zjSxzgJGL+F9OPILM3n5Nmqtq0wQviDY1b3AaYm6I9SJdey7TNvlCFBLOPNoYQ4LYQqjeKutVhLZJtzFYPz9R5LDUEvRGw225tNQ="
-  project: "FriendsCast"
+  - npm install -g firebase-tools
+  - firebase deploy --token "1/sOTFWDEnZtlh3r32TxWEAAVNQQcUy16pR-U22r8WYZo"
