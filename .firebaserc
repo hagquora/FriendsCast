@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "friends-ab0a7"
+    "default": "friends-ab0a7",
+    "fra": "friends-ab0a7"
   }
 }
